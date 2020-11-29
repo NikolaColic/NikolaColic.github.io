@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    background-color: orange;
+}
+.nav{
+    height: 70px;
+    background-color: navy;
+    background-attachment: fixed;
+    position: relative;
+    width: 100%;
+}
+.nav ul{
+    list-style-type: none;
+    float: left;
+    position: sticky;
+    top: 0;
+}
+.nav .logo{
+    float: left;
+    width: 20%;
+    font-size: 40px;
+    color: wheat;
+    text-align: center;
+    font-weight: 600;
+    line-height: 70px;
+}
+.nav ul li{
+    float: left;
+    padding: 0 50px;
+}
+.nav ul li a{
+    color: orange;
+    line-height: 70px;
+    text-decoration: none;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.nav .logo .logo_FON{
+    color:orange;
+}
+h1 {
+    text-decoration: underline;
+    font-size: 450%;
+    text-shadow: 2px 2px 5px royalblue;
+    padding: 25px;
+    color: black;
+    text-transform: uppercase;
+    margin-left: 500px;
+    margin-top: 75px;
+  }
+ 
+  .mojA{
+      background-color: rgb(255, 136, 0);
+      text-align: center;
+      font-size: 21px;
+      border: 3px black solid;
+      width: 50%;
+      margin: 0 auto;
+  }
+  .mojB{
+      background-color: rgb(17, 17, 150);
+      text-align: center;
+      font-size: 21px;
+      border: 1,5px black solid;
+      width: 50%;
+      margin: 0 auto;
+  }
+  .mojD{
+      background-color: wheat;
+      text-align: center;
+      font-size: 21px;
+      border: 3px black solid;
+      width: 50%;
+      margin: 0 auto;
+  }
+  .mojP:hover{
+      background-color: rgb(255, 136, 0);
+  }
+  .mojV:hover{
+      background-color: rgb(17, 17, 150);
+  }
+  .mojC:hover{
+      background-color:wheat;
+  }
+.card{
+    width: calc((100% - 200px) / 3);
+    height: 600px;
+    float: left;
+}
+.card{
+    float: left;
+    border: 1px black solid;
+    color: black;
+    background-color: orange;
+  
+}
+.card:not(:last-child){
+    margin-right: 100px;
+}
+
+.card a{
+    margin: 0 auto;
+    font-size: 21px;
+    display: block;
+    text-align: center;
+    color: rgb(47, 0, 255);
+}
+.card p{
+    font-size: 12px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+.onama{
+    max-width: 1800px;
+    margin: 0 0;
+    overflow: auto;
+    padding: 50px;
+}
+.footer{
+    background-color: rgb(255, 193, 24);
+    color: navy;
+    font-size: 15px;
+    overflow: auto;
+    padding: 30px 0;
+  }
+  .footer li{
+    list-style: none;
+    float: left;
+    padding: 0 50px;
+  }
+  .footer li a{
+    color: navy;
+  }
