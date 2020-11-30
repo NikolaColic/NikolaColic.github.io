@@ -67,7 +67,7 @@ img{
 }
 .card{
     width: calc((100% - 200px) / 3);
-    height: 600px;
+    height: 700px;
     float: left;
 }
 .card{
@@ -137,3 +137,4 @@ img{
   .footer li a{
     color: navy;
   }
+  
