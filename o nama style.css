@@ -57,7 +57,7 @@ h1 {
   .mojA{
       background-color: rgb(255, 136, 0);
       text-align: center;
-      font-size: 21px;
+      font-size: 24px;
       border: 3px black solid;
       width: 50%;
       margin: 0 auto;
@@ -65,33 +65,39 @@ h1 {
   .mojB{
       background-color: rgb(17, 17, 150);
       text-align: center;
-      font-size: 21px;
+      font-size: 24px;
       border: 1,5px black solid;
       width: 50%;
       margin: 0 auto;
+      color: wheat;
   }
   .mojD{
       background-color: wheat;
       text-align: center;
-      font-size: 21px;
+      font-size: 24px;
       border: 3px black solid;
       width: 50%;
       margin: 0 auto;
   }
   .mojP{
       text-align: center;
+      font-size: 22px;
   }
   .mojV{
     text-align: center;
+    font-size: 22px;
+    color:black;
 }
 .mojC{
     text-align: center;
+    font-size: 24px;
 }
   .mojP:hover{
       background-color: rgb(255, 136, 0);
   }
   .mojV:hover{
       background-color: rgb(17, 17, 150);
+      color: wheat;
   }
   .mojC:hover{
       background-color:wheat;
