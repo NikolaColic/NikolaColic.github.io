@@ -44,42 +44,93 @@ body{
     color:orange;
 }
 
-h1{
-    font-size: 36px;
-    text-align: center;
-    font-weight: 600;
-    text-transform: uppercase;
-    line-height: 3;
-    color: rgb(255, 94, 0);
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-}
 .ul ul{
-    background: rgb(255, 94, 0);
+    background: orange;
   padding: 20px;
 
 }
 .ul ul li{
-    background:rgb(231, 184, 95);
+    background:orange;
   margin: 5px;
   
   ;
 }
 p{
-    color: rgb(247, 98, 12);
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-    font-size: 25px;
+    color: orange;
+    text-shadow: -1px 0 black, 0 2px black, 2px 0 black, 0 -1px black;
+    font-size: 30px;
+    text-align: center;
+    padding: 15px;
+    text-decoration: underline;
 }
 .ul{
-    width: 70%;
+    width: 60%;
+    margin-left: 20%;
+    border-radius: 5px;
+    border: solid navy 5px;
+    
 }
 ol {
-    background:rgb(247, 98, 12);
+    background:teal;
     padding: 20px;
   }
   ol li {
-    background: rgb(231, 184, 95);
+    background:teal;
     padding: 5px;
     margin-left: 35px;
   }
+  .footer{
+    background-color: rgb(255, 193, 24);
+    color: navy;
+    font-size: 15px;
+    overflow: auto;
+    padding: 30px 0;
+  }
+  .footer li{
+    list-style: none;
+    float: left;
+    padding: 0 50px;
+  }
+  .footer li a{
+    color: navy;
+  }
+  .film a{
+    text-decoration: none;
+    color:white;
+    font-size: 15px;
+    border: 3px solid orange;
+    text-transform: uppercase;
+    border-radius: 3px;
+    width: 120px;
+    line-height: 30px;
+    margin: 0 auto;
+  }
+ 
+.film a:hover{
+  background-color:navy;
+}  
+body {
+  background-color:cornflowerblue;
+  font-family: cursive;
+}
 
+.glow {
+  font-size: 65px;
+  color: orange;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+  padding: 5px;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px navy, 0 0 40px navy, 0 0 50px navy, 0 0 60px navy, 0 0 70px navy;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px cornflowerblue, 0 0 40px cornflowerblue, 0 0 50px cornflowerblue, 0 0 60px cornflowerblue, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
   
