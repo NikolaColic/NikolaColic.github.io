@@ -78,6 +78,15 @@ h1 {
       width: 50%;
       margin: 0 auto;
   }
+  .mojP{
+      text-align: center;
+  }
+  .mojV{
+    text-align: center;
+}
+.mojC{
+    text-align: center;
+}
   .mojP:hover{
       background-color: rgb(255, 136, 0);
   }
@@ -121,6 +130,10 @@ h1 {
     margin: 0 0;
     overflow: auto;
     padding: 50px;
+}
+img{
+    width: 100%;
+    height: 500px;
 }
 .footer{
     background-color: rgb(255, 193, 24);
