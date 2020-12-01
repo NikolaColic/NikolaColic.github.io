@@ -51,6 +51,19 @@ body{
 }
 * {box-sizing:border-box}
 
+.tekstZaj{
+  color: black;
+  text-align: center;
+  cursor: default;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 1px;
+    word-wrap: break-word;
+    font-weight: 525px;
+}
+
+
 .slideshow-container {
   max-width: 450px;
   position: relative;
@@ -71,7 +84,7 @@ body{
   color: white;
   font-weight: bold;
   font-size: 18px;
-  transition: 0.6s ease;
+  transition: 20s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
 }
@@ -125,6 +138,26 @@ body{
   animation-name: fade;
   animation-duration: 10s;
 }
+.row {
+  width: 100%;
+}
+
+img{
+  width: 100%;
+  height: 350px;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; 
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 @-webkit-keyframes fade {
   from {opacity: .4}
@@ -135,9 +168,11 @@ body{
   from {opacity: .4}
   to {opacity: 1}
 }
-/* a{
-    margin-left: 100px;
-} */
+.linkovi{
+  text-align: center;
+  margin-left: 565px;
+  color: white;
+}
 .footer{
   background-color: rgb(255, 193, 24);
   color: navy;
