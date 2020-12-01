@@ -160,18 +160,13 @@ img{
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .4}
+  from {opacity: .9}
   to {opacity: 1}
 }
 
 @keyframes fade {
-  from {opacity: .4}
+  from {opacity: .9}
   to {opacity: 1}
-}
-.linkovi{
-  text-align: center;
-  margin-left: 565px;
-  color: white;
 }
 .footer{
   background-color: rgb(255, 193, 24);
